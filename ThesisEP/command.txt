@@ -1,0 +1,188 @@
+/* GenOpt example command file
+   MWetter@lbl.gov, 06/18/2003
+*/
+Vary{
+  Parameter{   // setpoint temperature
+    Name    = Hour1;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.25;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour2;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour3;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour4;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour5;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour6;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour7;
+    Min     = 18;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour8;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour9;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour10;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour11;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour12;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour13;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour14;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour15;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour16;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour17;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour18;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour19;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour20;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour21;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour22;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour23;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+Parameter{   // setpoint temperature
+    Name    = Hour24;
+    Min     = 18.5;
+    Ini     = 21;
+    Max     = 24;
+    Step    = 0.5;
+  }
+}
+
+OptimizationSettings{
+  MaxIte = 300;
+  MaxEqualResults = 100;
+  WriteStepNumber = false;
+  UnitsOfExecution = 0;
+}
+
+Algorithm{
+  Main = GPSHookeJeeves;
+  MeshSizeDivider = 2;
+  InitialMeshSizeExponent = 0;
+  MeshSizeExponentIncrement = 1;
+  NumberOfStepReduction = 4;
+}

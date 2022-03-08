@@ -1,0 +1,51 @@
+GenOpt(R) Optimization Version 3.1.1, March 29, 2016
+
+Lawrence Berkeley National Laboratory
+http://simulationresearch.lbl.gov
+Michael Wetter, MWetter@lbl.gov
+
+GenOpt Copyright (c) 1998-2016, The Regents of the
+University of California, through Lawrence Berkeley
+National Laboratory (subject to receipt of any 
+required approvals from the U.S. Dept. of Energy).
+All rights reserved.
+
+The development of GenOpt is supported by
+the U.S. Department of Energy (DOE),
+the Swiss Academy of Engineering Sciences (SATW),
+the Swiss National Energy Fund (NEFF), and
+the Swiss National Science Foundation (SNSF).
+_______________________________________________________________
+
+Configuration file : C:\Users\chmat\Documents\GenOpt\ThesisEP\optWin7.ini
+Command file       : C:\Users\chmat\Documents\GenOpt\ThesisEP\command.txt
+
+Optimization started  at : Wed Mar 02 23:47:37 CET 2022
+Optimization finished at : Thu Mar 03 00:37:03 CET 2022
+Execution time           :            00:49:26
+_______________________________________________________________
+
+Optimization terminated with error.
+
+Error message:
+**************
+genopt.lang.OptimizerException: 
+C:\Users\chmat\Documents\GenOpt\ThesisEP\tmp-genopt-run-103\output.err: Following error was found:
+Error on line 23:
+      **  Fatal  ** Program terminates due to above conditions.
+
+Simulation working directory : 'C:\Users\chmat\Documents\GenOpt\ThesisEP\tmp-genopt-run-103'
+Command string               : 'cmd /C ""C:\EnergyPlusV9-6-0\RunEPlus.bat" "output" "USA_CO_Denver-Aurora-Buckley.AFB.724695_TMY3""'
+
+GenOpt terminated with error.
+
+
+Info messages:
+**************
+Info 1: Simulation 103: Caught 'genopt.lang.OptimizerException' with message:   C:\Users\chmat\Documents\GenOpt\ThesisEP\tmp-genopt-run-103\output.err: Following error was found:
+Error on line 23:
+      **  Fatal  ** Program terminates due to above conditions.
+
+Simulation working directory : 'C:\Users\chmat\Documents\GenOpt\ThesisEP\tmp-genopt-run-103'
+Command string               : 'cmd /C ""C:\EnergyPlusV9-6-0\RunEPlus.bat" "output" "USA_CO_Denver-Aurora-Buckley.AFB.724695_TMY3""'
+   Try to evaluate simulation a second time.

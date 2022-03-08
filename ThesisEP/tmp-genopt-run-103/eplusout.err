@@ -1,0 +1,39 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.03.03 00:37,
+   ** Warning ** Output:PreprocessorMessage="GroundTempCalc - Slab" has the following Warning condition:
+   **   ~~~   ** Slab thickness [0.100 m] reset to 0.122 m  for computational stability.
+   ** Warning ** Timestep: Requested number (2) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
+   **   ~~~   ** Found first in surface=BGWALL_LOWER_LDF
+   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
+   ** Warning ** CalculateZoneVolume: 1 zone is not fully enclosed. For more details use:  Output:Diagnostics,DisplayExtrawarnings; 
+   ** Warning ** CheckUsedConstructions: There are 12 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetAirflowNetworkInput: AirflowNetwork:SimulationControl object, 
+   **   ~~~   ** ..Specified AirflowNetwork Control = "MultizoneWithDistribution" and ZoneVentilation:* objects are present.
+   **   ~~~   ** ..ZoneVentilation objects will not be simulated.
+   ** Severe  ** DualSetPointWithDeadBand: Effective heating set-point higher than effective cooling set-point - increase deadband if using unmixed air model
+   **   ~~~   ** occurs in Zone=LIVING_UNIT1 During Warmup & Sizing, Environment=DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN HTG 99.6% CONDNS DB, at Simulation time=12/21 13:00 - 13:30
+   **   ~~~   ** LoadToHeatingSetPoint=10490.968, LoadToCoolingSetPoint=10316.689
+   **   ~~~   ** Zone TempDepZnLd=1568.51
+   **   ~~~   ** Zone TempIndZnLd=27153.35
+   **   ~~~   ** Zone Heating ThermostatSetPoint=24.00
+   **   ~~~   ** Zone Cooling ThermostatSetPoint=23.89
+   **  Fatal  ** Program terminates due to above conditions.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=1
+   ..... Last severe error=DualSetPointWithDeadBand: Effective heating set-point higher than effective cooling set-point - increase deadband if using unmixed air model
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 4 Warning; 1 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 6 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.24sec
