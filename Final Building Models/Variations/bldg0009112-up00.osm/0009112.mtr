@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.08 14:06
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+1188,1,Heating:NaturalGas [J] !Hourly
+End of Data Dictionary
+1,RUN PERIOD 1,  39.74,-105.18,  -7.00,1829.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Sunday
+1188,79142178.47376376
+2,1, 1, 1, 0, 2, 0.00,60.00,Sunday
+1188,70542083.7869254
+2,1, 1, 1, 0, 3, 0.00,60.00,Sunday
+1188,70691860.18556389
+2,1, 1, 1, 0, 4, 0.00,60.00,Sunday
+1188,68292277.54287612
+2,1, 1, 1, 0, 5, 0.00,60.00,Sunday
+1188,66077601.036352664
+2,1, 1, 1, 0, 6, 0.00,60.00,Sunday
+1188,63558261.15935595
+2,1, 1, 1, 0, 7, 0.00,60.00,Sunday
+1188,59368338.52545211
+2,1, 1, 1, 0, 8, 0.00,60.00,Sunday
+1188,60266852.161140464
+2,1, 1, 1, 0, 9, 0.00,60.00,Sunday
+1188,51531605.23364583
+2,1, 1, 1, 0,10, 0.00,60.00,Sunday
+1188,46510123.87304798
+2,1, 1, 1, 0,11, 0.00,60.00,Sunday
+1188,41380362.76450014
+2,1, 1, 1, 0,12, 0.00,60.00,Sunday
+1188,42387178.87875244
+2,1, 1, 1, 0,13, 0.00,60.00,Sunday
+1188,42959898.57774452
+2,1, 1, 1, 0,14, 0.00,60.00,Sunday
+1188,45138142.86028813
+2,1, 1, 1, 0,15, 0.00,60.00,Sunday
+1188,49024751.473879434
+2,1, 1, 1, 0,16, 0.00,60.00,Sunday
+1188,46332148.68514422
+2,1, 1, 1, 0,17, 0.00,60.00,Sunday
+1188,50250911.12243684
+2,1, 1, 1, 0,18, 0.00,60.00,Sunday
+1188,55331263.40449146
+2,1, 1, 1, 0,19, 0.00,60.00,Sunday
+1188,59031550.2892565
+2,1, 1, 1, 0,20, 0.00,60.00,Sunday
+1188,68106698.96130681
+2,1, 1, 1, 0,21, 0.00,60.00,Sunday
+1188,74674434.87022758
+2,1, 1, 1, 0,22, 0.00,60.00,Sunday
+1188,76455971.81668481
+2,1, 1, 1, 0,23, 0.00,60.00,Sunday
+1188,81850851.31875
+2,1, 1, 1, 0,24, 0.00,60.00,Sunday
+1188,86730125.37597291
+End of Data
+ Number of Records Written=          24

@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.06 17:23
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+1237,1,Heating:NaturalGas [J] !Hourly
+End of Data Dictionary
+1,RUN PERIOD 1,  39.74,-105.18,  -7.00,1829.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Sunday
+1237,18311926.505604543
+2,1, 1, 1, 0, 2, 0.00,60.00,Sunday
+1237,16416918.058833776
+2,1, 1, 1, 0, 3, 0.00,60.00,Sunday
+1237,17564675.015732866
+2,1, 1, 1, 0, 4, 0.00,60.00,Sunday
+1237,17054678.462699264
+2,1, 1, 1, 0, 5, 0.00,60.00,Sunday
+1237,17323008.350245066
+2,1, 1, 1, 0, 6, 0.00,60.00,Sunday
+1237,14345038.424879357
+2,1, 1, 1, 0, 7, 0.00,60.00,Sunday
+1237,15865205.284396417
+2,1, 1, 1, 0, 8, 0.00,60.00,Sunday
+1237,24653102.21944648
+2,1, 1, 1, 0, 9, 0.00,60.00,Sunday
+1237,20882905.92094947
+2,1, 1, 1, 0,10, 0.00,60.00,Sunday
+1237,19056411.592149023
+2,1, 1, 1, 0,11, 0.00,60.00,Sunday
+1237,18181537.542184483
+2,1, 1, 1, 0,12, 0.00,60.00,Sunday
+1237,21450329.463440515
+2,1, 1, 1, 0,13, 0.00,60.00,Sunday
+1237,19887258.43320824
+2,1, 1, 1, 0,14, 0.00,60.00,Sunday
+1237,20880904.42646528
+2,1, 1, 1, 0,15, 0.00,60.00,Sunday
+1237,22802355.812213
+2,1, 1, 1, 0,16, 0.00,60.00,Sunday
+1237,19884634.213467963
+2,1, 1, 1, 0,17, 0.00,60.00,Sunday
+1237,21620958.824429005
+2,1, 1, 1, 0,18, 0.00,60.00,Sunday
+1237,21257838.607413374
+2,1, 1, 1, 0,19, 0.00,60.00,Sunday
+1237,22072559.63750341
+2,1, 1, 1, 0,20, 0.00,60.00,Sunday
+1237,25934905.462189127
+2,1, 1, 1, 0,21, 0.00,60.00,Sunday
+1237,27977218.996916063
+2,1, 1, 1, 0,22, 0.00,60.00,Sunday
+1237,24165296.07405101
+2,1, 1, 1, 0,23, 0.00,60.00,Sunday
+1237,20060370.490366746
+2,1, 1, 1, 0,24, 0.00,60.00,Sunday
+1237,25065154.81190298
+End of Data
+ Number of Records Written=          24

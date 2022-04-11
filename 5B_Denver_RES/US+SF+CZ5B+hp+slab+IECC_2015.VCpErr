@@ -1,0 +1,6 @@
+Program Version,Conversion 9.5 => 9.6
+   ** Warning ** Object=SimulationControl, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ************* Conversion Completed Successfully-- 2 Warning; 0 Severe Errors

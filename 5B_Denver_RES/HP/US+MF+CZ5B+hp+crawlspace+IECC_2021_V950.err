@@ -1,0 +1,32 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.02.03 22:49,
+   ** Warning ** Output:PreprocessorMessage="GroundTempCalc - Slab" has the following Warning condition:
+   **   ~~~   ** Slab thickness [0.100 m] reset to 0.122 m  for computational stability.
+   ************* Beginning Zone Sizing Calculations
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="BA_SHOWER_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="BA_BATH_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="BA_SINK_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="ACTIVITY_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="INF_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="ZONE_CONTROL_TYPE", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="SHADING_2012IECC", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="SHADING_2009IECC", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="SHADING_2009IECC" has missing days in its schedule pointers
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="DHW_SETPT", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="DHW_SETPT_HPWH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="SUPPLY-AIR-TEMP-SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="ALWAYS_AVAIL", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="ALWAYS_OFF", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="HEATING_SCH_HREF", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="COOLING_SCH_HREF", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="HEATING_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="COOLING_SCH", Looking for "For" field, found=ALLDAYS
+   ** Severe  ** ProcessScheduleInput: Schedule:Compact="FAN_CYCLE", Looking for "For" field, found=ALLDAYS
+   **  Fatal  ** ProcessScheduleInput: Preceding Errors cause termination.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=19
+   ..... Last severe error=ProcessScheduleInput: Schedule:Compact="FAN_CYCLE", Looking for "For" field, found=ALLDAYS
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 19 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 1 Warning; 19 Severe Errors; Elapsed Time=00hr 00min  0.41sec

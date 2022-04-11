@@ -1,0 +1,45 @@
+
+Conversion 9.5 => 9.6
+ Starting new Transition.audit
+ Will create new full IDFs
+ Will create new IDF lines with units where applicable
+ Will create new IDF lines leaving blank incoming fields as blank (no default fill)
+ Processing IDF -- C:\Users\chmat\Desktop\THESIS\5B_Denver_RES\US+MF+CZ5B+elecres+crawlspace+IECC_2021_V950_V950_V950_V950_V950_V950_V950_V950_V950_V950.idf
+   ** Warning ** Object=SimulationControl, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1_FrontRow_BottomFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit2_FrontRow_BottomFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit3_FrontRow_BottomFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1_BackRow_BottomFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit2_BackRow_BottomFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit3_BackRow_BottomFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1_FrontRow_MiddleFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit2_FrontRow_MiddleFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit3_FrontRow_MiddleFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1_BackRow_MiddleFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit2_BackRow_MiddleFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit3_BackRow_MiddleFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1_FrontRow_TopFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit2_FrontRow_TopFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit3_FrontRow_TopFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit1_BackRow_TopFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit2_BackRow_TopFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.
+   ** Warning ** Object=Sizing:Zone, name=living_unit3_BackRow_TopFloor, entered with less than minimum number of fields.
+   **   ~~~   ** Attempting fill to minimum.

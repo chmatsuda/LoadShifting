@@ -1,0 +1,968 @@
+==== Base does not Surround subsurface details ====
+Surface=SURFACE 18 No-Overlap
+Surface#=   67 NSides=    4
+Vertex     1=(          -1.05,          -0.00,           2.44)
+Vertex     2=(          -0.13,          -0.00,           2.44)
+Vertex     3=(          -0.13,          -0.00,           0.00)
+Vertex     4=(          -1.05,          -0.00,           0.00)
+SubSurface=UNIT 1 - SURFACE 5 - DOOR
+Surface#=   82 NSides=    4
+Vertex     1=(          -0.15,          -0.00,           2.13)
+Vertex     2=(          -0.15,          -0.00,           0.00)
+Vertex     3=(          -1.02,          -0.00,           0.00)
+Vertex     4=(          -1.02,          -0.00,           2.13)
+================================
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=SURFACE 14 - RES EAVES is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 14 - RES EAVES is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=SURFACE 17
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 14 - RES EAVES 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 14 - RES EAVES 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=SURFACE 16
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 14 - RES EAVES 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 14 - RES EAVES 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 15 - RES EAVES is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 15 - RES EAVES is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=SURFACE 16
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 15 - RES EAVES 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 15 - RES EAVES 1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=SURFACE 17
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 15 - RES EAVES 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 15 - RES EAVES 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RES NEIGHBORS LEFT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-RES NEIGHBORS LEFT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=42
+..Surface=SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RES NEIGHBORS RIGHT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-RES NEIGHBORS RIGHT is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=42
+..Surface=SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 10 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 4 SHADING SURFACE
+..Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 10 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 4 SHADING SURFACE
+..Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 11 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 2 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=25
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 2 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 2 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=25
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 3 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 3 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 3 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 3 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 4 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 4 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=25
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 4 SHADING SURFACE
+..Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 4 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 4 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=25
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 4 SHADING SURFACE
+..Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 5 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 5 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 5 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 5 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=23
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 2 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 8 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 8 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 8 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 8 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 3 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 9 - WINDOW 1 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 9 - WINDOW 2 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 9 - WINDOW 3 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SURFACE 9 - WINDOW 4 SHADING SURFACE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=15
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+..Surface=Mir-SURFACE 10 - WINDOW 1 SHADING SURFACE
+..Surface=Mir-SURFACE 10 - WINDOW 2 SHADING SURFACE
+..Surface=Mir-SURFACE 11 - WINDOW 1 SHADING SURFACE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 10 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=SURFACE 10 - WINDOW 1
+....Surface=SURFACE 10 - WINDOW 2
+==================================
+Surface=SURFACE 10 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 10 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=SURFACE 11 - WINDOW 1
+....Surface=SURFACE 11 - WINDOW 2
+....Surface=SURFACE 11 - WINDOW 3
+....Surface=SURFACE 11 - WINDOW 4
+==================================
+Surface=SURFACE 11 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 11 - WINDOW 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 18 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=UNIT 1 - SURFACE 5 - DOOR
+==================================
+Surface=UNIT 1 - SURFACE 5 - DOOR is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 19 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=SURFACE 2 - WINDOW 1
+....Surface=SURFACE 2 - WINDOW 2
+==================================
+Surface=SURFACE 2 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 2 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=SURFACE 3 - WINDOW 1
+....Surface=SURFACE 3 - WINDOW 2
+....Surface=SURFACE 3 - WINDOW 3
+....Surface=SURFACE 3 - WINDOW 4
+==================================
+Surface=SURFACE 3 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 3 - WINDOW 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 4 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=SURFACE 4 - WINDOW 1
+....Surface=SURFACE 4 - WINDOW 2
+==================================
+Surface=SURFACE 4 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 4 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 14 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=SURFACE 5 - WINDOW 1
+....Surface=SURFACE 5 - WINDOW 2
+....Surface=SURFACE 5 - WINDOW 3
+....Surface=SURFACE 5 - WINDOW 4
+==================================
+Surface=SURFACE 5 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 5 - WINDOW 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=2
+....Surface=SURFACE 8 - WINDOW 1
+....Surface=SURFACE 8 - WINDOW 2
+==================================
+Surface=SURFACE 8 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 8 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-SURFACE 15 - RES EAVES 2
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=SURFACE 9 - WINDOW 1
+....Surface=SURFACE 9 - WINDOW 2
+....Surface=SURFACE 9 - WINDOW 3
+....Surface=SURFACE 9 - WINDOW 4
+==================================
+Surface=SURFACE 9 - WINDOW 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 3 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 9 - WINDOW 4 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 12 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=MERGED SURFACE 6 - SURFACE 7 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=LIVING SPACE PARTITION is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=LIVING SPACE|STORY 2 PARTITION is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RES FURNITURE MASS LIVING SPACE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=RES FURNITURE MASS LIVING SPACE|STORY 2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 16 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES 1
+..Surface=Mir-SURFACE 15 - RES EAVES
+..Surface=Mir-RES NEIGHBORS LEFT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 17 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=Mir-SURFACE 14 - RES EAVES
+..Surface=Mir-SURFACE 15 - RES EAVES 1
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 13 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 14 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SURFACE 15 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-RES NEIGHBORS LEFT
+..Surface=Mir-RES NEIGHBORS RIGHT
+Number of back surfaces=0
+Number of receiving sub surfaces=0

@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.09 21:08
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+1345,1,Heating:NaturalGas [J] !Hourly
+End of Data Dictionary
+1,RUN PERIOD 1,  39.74,-105.18,  -7.00,1829.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Sunday
+1345,19340538.074578345
+2,1, 1, 1, 0, 2, 0.00,60.00,Sunday
+1345,16733542.828689078
+2,1, 1, 1, 0, 3, 0.00,60.00,Sunday
+1345,16955397.25299721
+2,1, 1, 1, 0, 4, 0.00,60.00,Sunday
+1345,16964331.079684105
+2,1, 1, 1, 0, 5, 0.00,60.00,Sunday
+1345,16698581.188597355
+2,1, 1, 1, 0, 6, 0.00,60.00,Sunday
+1345,16533600.811320832
+2,1, 1, 1, 0, 7, 0.00,60.00,Sunday
+1345,16315684.564980157
+2,1, 1, 1, 0, 8, 0.00,60.00,Sunday
+1345,15012708.388738368
+2,1, 1, 1, 0, 9, 0.00,60.00,Sunday
+1345,12742220.966575872
+2,1, 1, 1, 0,10, 0.00,60.00,Sunday
+1345,11528655.760015815
+2,1, 1, 1, 0,11, 0.00,60.00,Sunday
+1345,9631376.970535204
+2,1, 1, 1, 0,12, 0.00,60.00,Sunday
+1345,10291075.911146328
+2,1, 1, 1, 0,13, 0.00,60.00,Sunday
+1345,11576672.574495645
+2,1, 1, 1, 0,14, 0.00,60.00,Sunday
+1345,11987672.215489356
+2,1, 1, 1, 0,15, 0.00,60.00,Sunday
+1345,13604919.357583942
+2,1, 1, 1, 0,16, 0.00,60.00,Sunday
+1345,13525518.412871026
+2,1, 1, 1, 0,17, 0.00,60.00,Sunday
+1345,12226669.590220071
+2,1, 1, 1, 0,18, 0.00,60.00,Sunday
+1345,15629525.811168142
+2,1, 1, 1, 0,19, 0.00,60.00,Sunday
+1345,13045425.0738433
+2,1, 1, 1, 0,20, 0.00,60.00,Sunday
+1345,13990223.177785112
+2,1, 1, 1, 0,21, 0.00,60.00,Sunday
+1345,15259716.086461766
+2,1, 1, 1, 0,22, 0.00,60.00,Sunday
+1345,15987775.304108195
+2,1, 1, 1, 0,23, 0.00,60.00,Sunday
+1345,18562252.834112205
+2,1, 1, 1, 0,24, 0.00,60.00,Sunday
+1345,21327544.987393904
+End of Data
+ Number of Records Written=          24

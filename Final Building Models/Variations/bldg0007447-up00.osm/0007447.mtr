@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.09 17:44
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+1177,1,Heating:Electricity [J] !Hourly
+End of Data Dictionary
+1,RUN PERIOD 1,  39.74,-105.18,  -7.00,1829.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Sunday
+1177,43508450.52550455
+2,1, 1, 1, 0, 2, 0.00,60.00,Sunday
+1177,40983734.19176473
+2,1, 1, 1, 0, 3, 0.00,60.00,Sunday
+1177,41733011.04680818
+2,1, 1, 1, 0, 4, 0.00,60.00,Sunday
+1177,40186582.40905359
+2,1, 1, 1, 0, 5, 0.00,60.00,Sunday
+1177,40036479.88392382
+2,1, 1, 1, 0, 6, 0.00,60.00,Sunday
+1177,32284498.727047704
+2,1, 1, 1, 0, 7, 0.00,60.00,Sunday
+1177,31043332.715848897
+2,1, 1, 1, 0, 8, 0.00,60.00,Sunday
+1177,34512938.83543397
+2,1, 1, 1, 0, 9, 0.00,60.00,Sunday
+1177,30183121.389438454
+2,1, 1, 1, 0,10, 0.00,60.00,Sunday
+1177,26703571.04973624
+2,1, 1, 1, 0,11, 0.00,60.00,Sunday
+1177,23945290.322452374
+2,1, 1, 1, 0,12, 0.00,60.00,Sunday
+1177,25861322.994092356
+2,1, 1, 1, 0,13, 0.00,60.00,Sunday
+1177,25108948.304254152
+2,1, 1, 1, 0,14, 0.00,60.00,Sunday
+1177,26133117.76677397
+2,1, 1, 1, 0,15, 0.00,60.00,Sunday
+1177,29326173.60181495
+2,1, 1, 1, 0,16, 0.00,60.00,Sunday
+1177,29967682.25833392
+2,1, 1, 1, 0,17, 0.00,60.00,Sunday
+1177,28274251.253371976
+2,1, 1, 1, 0,18, 0.00,60.00,Sunday
+1177,30926231.268625133
+2,1, 1, 1, 0,19, 0.00,60.00,Sunday
+1177,32660228.675453566
+2,1, 1, 1, 0,20, 0.00,60.00,Sunday
+1177,38021070.60901207
+2,1, 1, 1, 0,21, 0.00,60.00,Sunday
+1177,40284760.24049778
+2,1, 1, 1, 0,22, 0.00,60.00,Sunday
+1177,37905272.49775662
+2,1, 1, 1, 0,23, 0.00,60.00,Sunday
+1177,46208471.06998282
+2,1, 1, 1, 0,24, 0.00,60.00,Sunday
+1177,50441486.08335968
+End of Data
+ Number of Records Written=          24

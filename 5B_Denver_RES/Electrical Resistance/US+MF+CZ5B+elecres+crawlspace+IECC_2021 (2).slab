@@ -1,0 +1,222 @@
+ Output:PreprocessorMessage,GroundTempCalc - Slab,Warning,
+ Slab thickness [0.100 m] reset to 0.122 m  for computational stability.;
+
+! ========================================================================
+! The following was created by the Slab preprocessor program.
+! Check the convergence message at the end of this file.
+! Weather File Location=Denver Centennial  Golden   Nr CO USA TMY3
+!
+!  Monthly Slab Outside Face Temperatures, C and Heat Fluxes(loss), W/(m^2)
+!  Perimeter Area: 67.62
+!  Core Area:      41.63
+!
+!       Month   TAverage   TPerimeter    TCore      TInside AverageFlux PerimeterFlux CoreFlux 
+!           1      19.62     18.53        21.40       22.22      8.582      12.191     2.721
+!           2      19.40     18.23        21.30       22.22      9.328      13.196     3.045
+!           3      19.56     18.55        21.21       22.22      8.777      12.136     3.321
+!           4      20.08     19.39        21.20       22.22      7.085       9.364     3.383
+!           5      20.40     19.90        21.22       22.22      5.997       7.661     3.295
+!           6      22.19     21.98        22.54       23.88      5.577       6.291     4.419
+!           7      22.78     22.73        22.86       23.88      3.648       3.813     3.380
+!           8      22.95     22.92        23.00       23.88      3.057       3.157     2.896
+!           9      22.82     22.65        23.11       23.88      3.492       4.074     2.547
+!          10      21.06     20.56        21.88       22.22      3.818       5.479     1.120
+!          11      20.29     19.45        21.65       22.22      6.368       9.133     1.878
+!          12      19.75     18.66        21.52       22.22      8.149      11.749     2.302
+
+SurfaceProperty:OtherSideCoefficients,
+  surfPropOthSdCoefSlabAverage,        !- Name
+  0.0,                                 !- Combined Convective Radiative Film Coefficient
+  1.0,                                 !- Constant Temperature
+  1.0,                                 !- Constant Temperature Coefficient
+  0.0,                                 !- External Dry-Bulb Temperature Coefficient
+  0.0,                                 !- Ground Temperature Coefficient
+  0.0,                                 !- Wind Speed Coefficient
+  0.0,                                 !- Zone Air Temperature Coefficient
+  scheduleOSCSlabAverageSurfaceTemp,   !- Constant Temperature Schedule Name
+  No,                                  !- Sinusoidal Variation of Constant Temperature Coefficient
+  24;                                  !- Period of Sinusoidal Variation
+ 
+Schedule:Compact,
+  scheduleOSCSlabAverageSurfaceTemp,   !- Name
+  Temperature,                         !- ScheduleType
+  Through:   1/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.622,                              !- Field
+  Through:   2/28,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.396,                              !- Field
+  Through:   3/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.563,                              !- Field
+  Through:   4/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  20.075,                              !- Field
+  Through:   5/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  20.404,                              !- Field
+  Through:   6/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.191,                              !- Field
+  Through:   7/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.776,                              !- Field
+  Through:   8/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.954,                              !- Field
+  Through:   9/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.823,                              !- Field
+  Through:  10/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.064,                              !- Field
+  Through:  11/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  20.292,                              !- Field
+  Through:  12/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.753;                              !- Field
+
+SurfaceProperty:OtherSideCoefficients,
+  surfPropOthSdCoefSlabPerimeter,      !- Name
+  0.0,                                 !- Combined Convective Radiative Film Coefficient
+  1.0,                                 !- Constant Temperature
+  1.0,                                 !- Constant Temperature Coefficient
+  0.0,                                 !- External Dry-Bulb Temperature Coefficient
+  0.0,                                 !- Ground Temperature Coefficient
+  0.0,                                 !- Wind Speed Coefficient
+  0.0,                                 !- Zone Air Temperature Coefficient
+  scheduleOSCSlabPerimeterTemp,        !- Constant Temperature Schedule Name
+  No,                                  !- Sinusoidal Variation of Constant Temperature Coefficient
+  24;                                  !- Period of Sinusoidal Variation
+ 
+Schedule:Compact,
+  scheduleOSCSlabPerimeterTemp,        !- Name
+  Temperature,                         !- ScheduleType
+  Through:   1/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  18.529,                              !- Field
+  Through:   2/28,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  18.225,                              !- Field
+  Through:   3/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  18.546,                              !- Field
+  Through:   4/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.385,                              !- Field
+  Through:   5/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.901,                              !- Field
+  Through:   6/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.976,                              !- Field
+  Through:   7/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.726,                              !- Field
+  Through:   8/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.924,                              !- Field
+  Through:   9/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.647,                              !- Field
+  Through:  10/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  20.561,                              !- Field
+  Through:  11/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  19.455,                              !- Field
+  Through:  12/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  18.663;                              !- Field
+
+SurfaceProperty:OtherSideCoefficients,
+  surfPropOthSdCoefSlabCore,           !- Name
+  0.0,                                 !- Combined Convective Radiative Film Coefficient
+  1.0,                                 !- Constant Temperature
+  1.0,                                 !- Constant Temperature Coefficient
+  0.0,                                 !- External Dry-Bulb Temperature Coefficient
+  0.0,                                 !- Ground Temperature Coefficient
+  0.0,                                 !- Wind Speed Coefficient
+  0.0,                                 !- Zone Air Temperature Coefficient
+  scheduleOSCSlabCoreTemp,             !- Constant Temperature Schedule Name
+  No,                                  !- Sinusoidal Variation of Constant Temperature Coefficient
+  24;                                  !- Period of Sinusoidal Variation
+ 
+Schedule:Compact,
+  scheduleOSCSlabCoreTemp,             !- Name
+  Temperature,                         !- ScheduleType
+  Through:   1/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.396,                              !- Field
+  Through:   2/28,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.298,                              !- Field
+  Through:   3/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.215,                              !- Field
+  Through:   4/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.196,                              !- Field
+  Through:   5/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.223,                              !- Field
+  Through:   6/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.542,                              !- Field
+  Through:   7/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  22.857,                              !- Field
+  Through:   8/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  23.003,                              !- Field
+  Through:   9/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  23.109,                              !- Field
+  Through:  10/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.881,                              !- Field
+  Through:  11/30,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.652,                              !- Field
+  Through:  12/31,                     !- Field
+  For:AllDays,                         !- Field
+  Until:24:00,                         !- Field
+  21.523;                              !- Field
+  
+ ! Convergence has been gained.

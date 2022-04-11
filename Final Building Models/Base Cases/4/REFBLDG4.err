@@ -1,0 +1,68 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.05 23:35,
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=BEVERLY MUNI AP_MA_USA
+   **   ~~~   ** ..Weather File Location=Denver Centennial  Golden   Nr CO USA TMY3 WMO#=724666
+   **   ~~~   ** ..due to location differences, Latitude difference=[2.84] degrees, Longitude difference=[34.26] degrees.
+   **   ~~~   ** ..Time Zone difference=[2.0] hour(s), Elevation difference=[5279.41] percent, [1795.00] meters.
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=100918 differs by more than 10% from Standard Barometric Pressure=81198.
+   **   ~~~   ** ...occurs in DesignDay=ANN CLG 1% CONDNS DB=>MWB, Standard Pressure (based on elevation) will be used.
+   ** Warning ** For Schedule:File="CLOTHES_DRYER_EXHAUST", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** CheckUsedConstructions: There are 1 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** SetUpDesignDay: Entered DesignDay Barometric Pressure=100918 differs by more than 10% from Standard Barometric Pressure=81198.
+   **   ~~~   ** ...occurs in DesignDay=ANN HTG 99% CONDNS DB, Standard Pressure (based on elevation) will be used.
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=PUMP VARIABLE SPEED 1
+   ** Warning ** CalcEquipmentFlowRates: Target water temperature is greater than the hot water temperature
+   **   ~~~   **  During Warmup, Environment=ANN HTG 99% CONDNS DB, at Simulation time=01/21 23:45 - 24:00
+   **   ~~~   ** ...target water temperature       = 52.666 C
+   **   ~~~   ** ...hot water temperature       = 51.667 C
+   **   ~~~   ** ...Note: target water temperature should be less than or equal to the hot water temperature
+   **   ~~~   ** ...Target water temperature should be less than or equal to the hot water temperature. Verify temperature setpoints and schedules.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-RESIDUAL OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-NATURAL GAS" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ************* Simulation Error Summary *************
+   ************* There are 6 unused schedules in input.
+   ************* There are 86 unused week schedules in input.
+   ************* There are 58 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** RES CW" - Target water temperature should be less than or equal to the hot water temperature error continues...
+   *************  **   ~~~   **   This error occurred 7 total times;
+   *************  **   ~~~   **   during Warmup 7 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=51.666667  Min=6.286855
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 7 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 21 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.32sec

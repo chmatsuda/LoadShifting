@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.08 13:42
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+865,1,Heating:NaturalGas [J] !Hourly
+End of Data Dictionary
+1,RUN PERIOD 1,  39.74,-105.18,  -7.00,1829.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Monday
+865,7053678.782712592
+2,1, 1, 1, 0, 2, 0.00,60.00,Monday
+865,6294286.925296189
+2,1, 1, 1, 0, 3, 0.00,60.00,Monday
+865,6610726.1954395585
+2,1, 1, 1, 0, 4, 0.00,60.00,Monday
+865,6373986.025341553
+2,1, 1, 1, 0, 5, 0.00,60.00,Monday
+865,0.0
+2,1, 1, 1, 0, 6, 0.00,60.00,Monday
+865,8779991.94069907
+2,1, 1, 1, 0, 7, 0.00,60.00,Monday
+865,6960519.181007352
+2,1, 1, 1, 0, 8, 0.00,60.00,Monday
+865,6273494.248906921
+2,1, 1, 1, 0, 9, 0.00,60.00,Monday
+865,2811214.8115486726
+2,1, 1, 1, 0,10, 0.00,60.00,Monday
+865,3144702.3391373837
+2,1, 1, 1, 0,11, 0.00,60.00,Monday
+865,1429581.4669243293
+2,1, 1, 1, 0,12, 0.00,60.00,Monday
+865,2320372.975174916
+2,1, 1, 1, 0,13, 0.00,60.00,Monday
+865,2805180.666298504
+2,1, 1, 1, 0,14, 0.00,60.00,Monday
+865,3892471.1388109424
+2,1, 1, 1, 0,15, 0.00,60.00,Monday
+865,4870588.813481158
+2,1, 1, 1, 0,16, 0.00,60.00,Monday
+865,4930009.606525717
+2,1, 1, 1, 0,17, 0.00,60.00,Monday
+865,7411181.354266444
+2,1, 1, 1, 0,18, 0.00,60.00,Monday
+865,5240925.998958918
+2,1, 1, 1, 0,19, 0.00,60.00,Monday
+865,5706037.632542278
+2,1, 1, 1, 0,20, 0.00,60.00,Monday
+865,6926181.227814847
+2,1, 1, 1, 0,21, 0.00,60.00,Monday
+865,7329058.849980382
+2,1, 1, 1, 0,22, 0.00,60.00,Monday
+865,7263509.098967931
+2,1, 1, 1, 0,23, 0.00,60.00,Monday
+865,8094908.387863898
+2,1, 1, 1, 0,24, 0.00,60.00,Monday
+865,8716257.316246562
+End of Data
+ Number of Records Written=          24

@@ -1,0 +1,72 @@
+3-D BASEMENT MODEL INPUT SUMMARY:
+
+     RUN IDENTIFIER:     Run     TIME-STEP:    1.     F:  0.10
+     WEATHER FILE ID:  Denver Centennial  Golden   Nr CO USA TMY3
+     LONGITUDE (DEG):  -105.2     LATITUDE (DEG):   39.7
+     STANDARD TIME MERIDIAN (DEG):   -7.0     ELEVATION (M):  1829.0
+     OPERATING TEMPERATURE (C):   0.00
+
+CHARATERISTICS OF FOUNDATION INSULATION:
+
+     R-VALUE OF EXTERIOR FOUNDATION WALL INSULATION:   3.35
+     R-VALUE OF INTERIOR FOUNDATION WALL INSULATION:   0.00
+     R-VALUE OF EXTERIOR SIDING:   0.00
+     R-VALUE OF SILL BOX INSULATION:   0.00
+     R-VALUE OF BASEMENT CEILING INSULATION:   0.00
+
+     EXTERIOR INSULATION IS FULL LENGTH
+
+SOIL AND SURFACE PROPERTIES:
+
+     ALBEDO:
+     NO SNOW:   0.16     SNOW:   0.40
+
+     LONG-WAVE EMISSIVITY:
+     NO SNOW:   0.94     SNOW:   0.86
+
+     VEGETATION HEIGHT (CM):
+     NO SNOW:   6.00     SNOW:   0.25
+
+     DENSITY (KG/M**3):  1500.00     SPECIFIC HEAT (J/KG/K):  840.00
+     THERMAL CONDUCTIVITY (W/M/K):    1.10
+
+     GROUND SNOW COVER MODEL ON
+
+FOUNDATION WALL MATERIAL PROPERTIES AND BASEMENT DIMENSIONS:
+
+     DENSITY (KG/M**3):  2243.00     SPECIFIC HEAT (J/KG/K):  880.00
+     THERMAL CONDUCTIVITY (W/M/K):    1.40
+     CEILING AREA (M**2):     115.87
+     FLOOR AREA (M**2):     109.25     PERIMETER (M):      43.41
+     RIM JOIST AREA (M**2):      10.12
+     SILL PLATE AREA (M**2):       6.62
+     WALL AREA (M**2):      52.56
+     MIN X (M):     0.0     MAX X (M):     5.4
+     MIN Y (M):     0.0     MAX Y (M):     5.4
+     HEIGHT OF BASEMENT BELOW-GRADE (M):     1.2
+
+CONSTANT BASEMENT TEMPERATURE (C):      0.00
+
+BOUNDARY CONDITIONS:
+
+     INSIDE HEAT TRANSFER COEFFICIENTS, CONVECTION AND RADIATION (W/M**2/K):
+     Q DOWNWARD:    6.13     Q UPWARD:    9.26     Q HORIZONTAL:    8.29
+
+     BASEMENT RADIATION MODEL OFF
+     ZERO EVAPORATION SURFACE BOUNDARY
+     FIXED TEMPERATURE LOWER BOUNDARY
+
+CELL X-COORDINATES (M):
+      0.00      0.23      2.23      2.73      3.23      3.73      4.23      4.63      4.83      5.03
+      5.23      5.30      5.38      5.43      5.58      5.73      5.98      6.23      6.48      6.73
+      7.23      7.73      8.73     10.73     12.73     14.73     16.73     18.73     20.73
+
+CELL Y-COORDINATES (M):
+      0.00      0.23      2.23      2.73      3.23      3.73      4.23      4.63      4.83      5.03
+      5.23      5.30      5.38      5.43      5.58      5.73      5.98      6.23      6.48      6.73
+      7.23      7.73      8.73     10.73     12.73     14.73     16.73     18.73     20.73
+
+CELL Z-COORDINATES (M):
+     -0.32     -0.27     -0.04     -0.02      0.00      0.20      0.40      0.60      0.80      1.00
+      1.02      1.22      1.32      1.52      1.77      2.02      2.27      2.52      3.02      3.52
+      5.52      7.52      9.52     11.52     13.52     15.52     15.52

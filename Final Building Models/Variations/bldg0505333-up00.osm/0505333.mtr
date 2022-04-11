@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.04.10 12:10
+1,5,Environment Title[],Latitude[deg],Longitude[deg],Time Zone[],Elevation[m]
+2,8,Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],Hour[],StartMinute[],EndMinute[],DayType
+3,5,Cumulative Day of Simulation[],Month[],Day of Month[],DST Indicator[1=yes 0=no],DayType  ! When Daily Meters Requested
+4,2,Cumulative Days of Simulation[],Month[]  ! When Monthly Meters Requested
+5,1,Cumulative Days of Simulation[] ! When Run Period Meters Requested
+6,1,Calendar Year of Simulation[] ! When Annual Meters Requested
+993,1,Heating:Electricity [J] !Hourly
+End of Data Dictionary
+1,RUN PERIOD 1,  39.74,-105.18,  -7.00,1829.00
+2,1, 1, 1, 0, 1, 0.00,60.00,Monday
+993,32506587.275002807
+2,1, 1, 1, 0, 2, 0.00,60.00,Monday
+993,30988352.843912713
+2,1, 1, 1, 0, 3, 0.00,60.00,Monday
+993,33425487.135758374
+2,1, 1, 1, 0, 4, 0.00,60.00,Monday
+993,31270756.03932161
+2,1, 1, 1, 0, 5, 0.00,60.00,Monday
+993,30883375.771711756
+2,1, 1, 1, 0, 6, 0.00,60.00,Monday
+993,29691851.747627977
+2,1, 1, 1, 0, 7, 0.00,60.00,Monday
+993,29035869.025602274
+2,1, 1, 1, 0, 8, 0.00,60.00,Monday
+993,28789523.907825463
+2,1, 1, 1, 0, 9, 0.00,60.00,Monday
+993,26676860.032302864
+2,1, 1, 1, 0,10, 0.00,60.00,Monday
+993,24931191.89363908
+2,1, 1, 1, 0,11, 0.00,60.00,Monday
+993,23825094.076648097
+2,1, 1, 1, 0,12, 0.00,60.00,Monday
+993,26053097.125726867
+2,1, 1, 1, 0,13, 0.00,60.00,Monday
+993,24779133.475749563
+2,1, 1, 1, 0,14, 0.00,60.00,Monday
+993,24676017.557992052
+2,1, 1, 1, 0,15, 0.00,60.00,Monday
+993,27394843.55568506
+2,1, 1, 1, 0,16, 0.00,60.00,Monday
+993,25551825.168556757
+2,1, 1, 1, 0,17, 0.00,60.00,Monday
+993,25609158.08232081
+2,1, 1, 1, 0,18, 0.00,60.00,Monday
+993,27556845.5928295
+2,1, 1, 1, 0,19, 0.00,60.00,Monday
+993,28717028.203151055
+2,1, 1, 1, 0,20, 0.00,60.00,Monday
+993,33238360.38337598
+2,1, 1, 1, 0,21, 0.00,60.00,Monday
+993,34500276.70352514
+2,1, 1, 1, 0,22, 0.00,60.00,Monday
+993,34007367.38284838
+2,1, 1, 1, 0,23, 0.00,60.00,Monday
+993,37628762.443852246
+2,1, 1, 1, 0,24, 0.00,60.00,Monday
+993,40546309.99651796
+End of Data
+ Number of Records Written=          24

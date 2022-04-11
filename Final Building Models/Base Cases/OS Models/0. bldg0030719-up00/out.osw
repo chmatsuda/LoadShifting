@@ -1,0 +1,22 @@
+{
+   "completed_at" : "20220405T111429Z",
+   "completed_status" : "Fail",
+   "created_at" : "20220405T111316Z",
+   "current_step" : 0,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 9.6.0-4b123cf80f, YMD=2022.04.05 13:14,\n   ** Severe  ** <root>[Schedule:File][baths] - Missing required property 'file_name'.\n   **  Fatal  ** Errors occurred on processing input file. Preceding condition(s) cause termination.\n   ...Summary of Errors that led to program termination:\n   ..... Reference severe error count=1\n   ..... Last severe error=<root>[Schedule:File][baths] - Missing required property 'file_name'.\n   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).\n   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  0.28sec\n",
+   "file_paths" : 
+   [
+      "C:/Users/chmat/AppData/Local/Temp/osmodel-1649157196-0/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "ABA75E47",
+   "seed_file" : "../0. bldg0030719-up00.osm",
+   "started_at" : "20220405T111425Z",
+   "steps" : [],
+   "updated_at" : "20220405T111429Z",
+   "weather_file" : "USA_CO_Denver-Aurora-Buckley.AFB.724695_TMY3.epw"
+}

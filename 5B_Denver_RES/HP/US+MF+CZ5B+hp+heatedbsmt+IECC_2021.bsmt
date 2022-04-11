@@ -1,0 +1,6 @@
+ Output:PreprocessorMessage,GroundTempCalc - Basement,Severe,
+EPlusOutput: Calculations have resulted in invalid results (NAN). (Could be divide by zero. ,
+Overflows. Other causes.) Check Input Parameters.  Hint: Start from defaults for each object ,
+and work forward.;
+ Output:PreprocessorMessage,GroundTempCalc - Basement,Fatal,
+Program terminates due to preceding condition(s).;

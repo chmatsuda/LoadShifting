@@ -1,0 +1,112 @@
+ This is a commercial bulding. There is no basement temp dead band.
+ 1-D solution has not converged, Delta T>0.05
+ 1-D solution has converged, MaxDeltaT=   0.0000000000000000     
+ Entering main simulation block
+ Year:           1 Day:          30 Converge Status: F
+ Year:           1 Day:          60 Converge Status: F
+ Year:           1 Day:          90 Converge Status: F
+ Year:           1 Day:         120 Converge Status: F
+ Year:           1 Day:         150 Converge Status: F
+ Year:           1 Day:         180 Converge Status: F
+ Year:           1 Day:         210 Converge Status: F
+ Year:           1 Day:         240 Converge Status: F
+ Year:           1 Day:         270 Converge Status: F
+ Year:           1 Day:         300 Converge Status: F
+ Year:           1 Day:         330 Converge Status: F
+ Year:           1 Day:         360 Converge Status: F
+ Year:           1 Day:         365 Converge Status: F
+ 3-D Solution Has Not Converged, Delta T>0.1
+ Max DeltaT=-99999.000
+ CVG =  T  QUIT =  F
+ Elapsed time: 39.25 seconds
+  Processing Data Dictionary (BasementGHT.idd) File -- Complete
+  Maximum number of Alpha Args=           1
+  Maximum number of Numeric Args=          44
+  Number of Object Definitions=          14
+  Number of Section Definitions=           0
+  Processing Input Data File (BasementGHTIn.idf) -- Start
+      1 
+      2 SimParameters,
+      3   0.1,
+      4   15;
+      5 
+      6 MatlProps,
+      7   6,
+      8   2243,
+      9   2243,
+     10   311,
+     11   1500,
+     12   2000,
+     13   449,
+     14   880,
+     15   880,
+     16   1530,
+     17   840,
+     18   720,
+     19   1530,
+     20   1.4,
+     21   1.4,
+     22   0.09,
+     23   1.1,
+     24   1.9,
+     25   0.12;
+     26 
+     27 Insulation,
+     28   3.34589511499313,
+     29   True;
+     30 
+     31 SurfaceProps,
+     32   0.16,
+     33   0.4,
+     34   0.94,
+     35   0.86,
+     36   6,
+     37   0.25,
+     38   False;
+     39 
+     40 BldgData,
+     41   0.200000006162114,
+     42   0.243828108701145,
+     43   0.3,
+     44   0.2,
+     45   0.1;
+     46 
+     47 Interior,
+     48   True,
+     49   0.92,
+     50   4.04,
+     51   3.08,
+     52   6.13,
+     53   9.26,
+     54   8.29;
+     55 
+     56 ComBldg,
+     57   21,
+     58   21,
+     59   21,
+     60   21,
+     61   24,
+     62   24,
+     63   24,
+     64   24,
+     65   24,
+     66   24,
+     67   21,
+     68   21,
+     69   21;
+     70 
+     71 EquivSlab,
+     72   2.61304611792725,
+     73   True;
+     74 
+     75 EquivAutoGrid,
+     76   15,
+     77   0.1,
+     78   1.21914054350572;
+  Processing Input Data File (BasementGHTIn.idf) -- Complete
+  Number of IDF "Lines"=           9
+Program Version,GroundTempCalc - Basement, Version .5
+   ** Severe  ** EPlusOutput: Calculations have resulted in invalid results (NAN). (Could be divide by zero. Overflows. Other causes.) Check Input Parameters.  Hint: Start from defaults for each object and work forward.
+   **  Fatal  ** Program terminates due to preceding condition(s).
+   ************* GroundTempCalc:Basement Terminated--Fatal Error Detected. 0 Warning; 1 Severe Errors
+

@@ -1,0 +1,16 @@
+Program Version,EnergyPlus, Version 9.6.0-f420c06a69, YMD=2022.02.03 22:51,
+   ** Severe  ** Output:PreprocessorMessage="GroundTempCalc - Basement" has the following Severe conditions:
+   **   ~~~   ** EPlusOutput: Calculations have resulted in invalid results (NAN). (Could be divide by zero.
+   **   ~~~   ** Overflows. Other causes.) Check Input Parameters.  Hint: Start from defaults for each object
+   **   ~~~   ** and work forward.
+   ** Severe  ** Output:PreprocessorMessage="GroundTempCalc - Basement" has the following Fatal condition:
+   **   ~~~   ** Program terminates due to preceding condition(s).
+   **  Fatal  ** Preprocessor condition(s) cause termination.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=2
+   ..... Last severe error=Output:PreprocessorMessage="GroundTempCalc - Basement" has the following Fatal condition:
+   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).
+   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 0 Warning; 2 Severe Errors; Elapsed Time=00hr 00min  0.21sec
