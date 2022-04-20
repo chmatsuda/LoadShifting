@@ -9083,19 +9083,3 @@ OS:StandardsInformation:Construction,
   {bd5f4209-b482-4d3c-a023-60648c97ab71}, !- Handle
   {099a20c1-71d0-4552-aa19-db318e229fdb}; !- Construction Name
 
-OS:WeatherFile,
-  {4959d522-3158-4f9e-8558-ab289beba800}, !- Handle
-  Denver-Aurora-Buckley AFB,              !- City
-  CO,                                     !- State Province Region
-  USA,                                    !- Country
-  TMY3,                                   !- Data Source
-  724695,                                 !- WMO Number
-  39.72,                                  !- Latitude {deg}
-  -104.75,                                !- Longitude {deg}
-  -7,                                     !- Time Zone {hr}
-  1726,                                   !- Elevation {m}
-  USA_CO_Denver-Aurora-Buckley.AFB.724695_TMY3.epw, !- Url
-  A0C64037,                               !- Checksum
-  ,                                       !- Start Date Actual Year
-  Sunday;                                 !- Start Day of Week
-

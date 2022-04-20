@@ -90,11 +90,11 @@ Timestep,
 !-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
 
 Site:Location,
-    Beverly Muni AP_MA_USA,  !- Name
-    42.583,                  !- Latitude {deg}
-    -70.917,                 !- Longitude {deg}
-    -5,                      !- Time Zone {hr}
-    34;                      !- Elevation {m}
+    Denver-Aurora-Buckley AFB,  !- Name
+    39.72,                   !- Latitude {deg}
+    -104.75,                 !- Longitude {deg}
+    -7,                      !- Time Zone {hr}
+    1726;                    !- Elevation {m}
 
 
 !-   ===========  ALL OBJECTS IN CLASS: SIZINGPERIOD:DESIGNDAY ===========
