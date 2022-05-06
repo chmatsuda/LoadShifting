@@ -1,0 +1,14 @@
+Schedule:Compact,
+    heating_sch,             !- Name
+    Temperature,             !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 06:00,            !- Field 3
+    18.5,                      !- Field 4
+    Until: 07:00,            !- Field 5
+    21,                      !- Field 6
+    Until: 08:00,            !- Field 7
+    24,                      !- Field 8
+    Until: 24:00,            !- Field 9
+    18.5;                      !- Field 10
+    
